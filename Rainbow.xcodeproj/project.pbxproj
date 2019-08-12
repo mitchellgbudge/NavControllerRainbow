@@ -13,7 +13,7 @@
 		3D5FDF502301C58E00731958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FDF4E2301C58E00731958 /* LaunchScreen.storyboard */; };
 		3D5FDF582301C97400731958 /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF572301C97400731958 /* ColorsTableViewController.swift */; };
 		3D5FDF5A2301C9E800731958 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF592301C9E800731958 /* ColorDetailViewController.swift */; };
-		3D5FDF5C2301CB1000731958 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF5B2301CB1000731958 /* ColorTableViewCell.swift */; };
+		3D5FDF5E2301CE1300731958 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FDF5D2301CE1300731958 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		3D5FDF512301C58E00731958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5FDF572301C97400731958 /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
 		3D5FDF592301C9E800731958 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
-		3D5FDF5B2301CB1000731958 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		3D5FDF5D2301CE1300731958 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 				3D5FDF452301C58C00731958 /* AppDelegate.swift */,
 				3D5FDF492301C58C00731958 /* Main.storyboard */,
 				3D5FDF572301C97400731958 /* ColorsTableViewController.swift */,
+				3D5FDF5D2301CE1300731958 /* Color.swift */,
 				3D5FDF592301C9E800731958 /* ColorDetailViewController.swift */,
-				3D5FDF5B2301CB1000731958 /* ColorTableViewCell.swift */,
 				3D5FDF4C2301C58E00731958 /* Assets.xcassets */,
 				3D5FDF4E2301C58E00731958 /* LaunchScreen.storyboard */,
 				3D5FDF512301C58E00731958 /* Info.plist */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5FDF5A2301C9E800731958 /* ColorDetailViewController.swift in Sources */,
-				3D5FDF5C2301CB1000731958 /* ColorTableViewCell.swift in Sources */,
+				3D5FDF5E2301CE1300731958 /* Color.swift in Sources */,
 				3D5FDF462301C58C00731958 /* AppDelegate.swift in Sources */,
 				3D5FDF582301C97400731958 /* ColorsTableViewController.swift in Sources */,
 			);
