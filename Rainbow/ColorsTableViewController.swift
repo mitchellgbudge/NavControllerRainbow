@@ -10,7 +10,14 @@ import UIKit
 
 class ColorsTableViewController: UITableViewController {
     
-    var colors: [MyColor] = [MyColor(name: "Red", color: .red)]
+    var colors: [MyColor] = [MyColor(name: "Red", color: .red),
+                             MyColor(name: "Orange", color: .orange),
+                             MyColor(name: "Yellow", color: .yellow),
+                             MyColor(name: "Green", color: .green),
+                             MyColor(name: "Blue", color: .blue),
+                             MyColor(name: "Cyan", color: .cyan),
+                             MyColor(name: "Purple", color: .purple)
+                             ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +38,11 @@ class ColorsTableViewController: UITableViewController {
 
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "ColorDetail" {
+            guard let indexPath = tableView.indexPathForSelectedRow,
+                let colorDetailVC = segue.destination as? ColorDetailViewController else { return }
+            colorDetailVC.cellColor = colors[indexPath.row]
+        }
     }
 }
